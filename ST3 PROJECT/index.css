@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #background{
+    position:relative;
+    height:100%;
+    width: 100%;
+  }
+  .planets{
+    position:absolute;
+    margin: 0px;
+  }
+  #sun{
+    height:500px;
+    width:240px;
+    top:20px;
+    left:0px;
+    
+  }
+  #earth{
+    height:50px;
+    width:70px;
+    top:260px;
+    left:420px;
+  }
+  
+  #mercury{
+    height:30px;
+    width:40px;
+    top:265px;
+    left:260px;
+  }
+  #venus{
+    height:60px;
+    width:80px;
+    top:250px;
+    left:320px;
+  }
+  #mars{
+    height:55px;
+    width:70px;
+    top:255px;
+    left:520px;
+  }
+  #jupiter {
+    height:140px;
+    width:155px;
+    top:195px;
+    left:615px;
+  }
+  #saturn{
+    height:120px;
+    width:190px;
+    top:225px;
+    left:800px;
+  }
+  #uranus{
+    height:60px;
+    width:70px;
+    top:250px;
+    left:1020px;
+  }
+  #neptune{
+    height:80px;
+    width:60px;
+    top:235px;
+    left:1120px;
+  }
+  #pluto{
+    height:40px;
+    width:40px;
+    top:260px;
+    left:1205px;
+  }
+  #enter{
+    position:absolute;
+    top:50px;
+    left:380px;
+   }
+   #enter h1{
+    color:white;
+   }
+  
+   input{
+    width:220px;
+    border:2px solid pink;
+    height:25px;
+   }
+  
+   input:focus{
+    outline: none;
+   }
+  
+  
+   input::placeholder{
+    
+    font-weight: bold;
+    color: black ;
+    font-size: 14px;
+   }
+   #text{
+    position:fixed;
+    bottom:50px;
+    right:120px;
+    border:2px solid pink;
+    background-color: white;
+    width: 100px;
+    height:20px;
+  
+   }
+   #text2{
+    position: fixed;
+     color: white;
+     display:inline;
+     bottom:50px;
+     right:230px;
+   }
+   #p1{
+    
+    color: black;
+   }
+   h4{
+    color:white;
+   }
